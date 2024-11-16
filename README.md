@@ -31,3 +31,8 @@ The repository consists of two files:
 | gardensensor.ino  | This is the main source code that will need to be uploaded to your Arduino.                                                                     |
 | arduino_secrets.h | This file will contain your local WiFi networks SSID and password.  Any changes to this file should not be persisted back into this repository. |
 
+### Acknowledgements
+
+Credit where credit is due:
+
+The code responsible for getting readings from the LH400 was lifted from [this repository](https://gist.github.com/lx-88/413b48ced6b79300ea76) and it saved me lots of trial and error on how to interact with this particular sensor.  Thank you [Michael Ewald](https://gist.github.com/lx-88).

@@ -33,6 +33,7 @@ void setup()
 }
 
 float readVH400(int analogPin) {
+  // This method comes from https://gist.github.com/lx-88/413b48ced6b79300ea76
   // This function returns Volumetric Water Content by converting the analogPin value to voltage
   // and then converting voltage to VWC using the piecewise regressions provided by the manufacturer
   // at http://www.vegetronix.com/Products/VH400/VH400-Piecewise-Curve.phtml
