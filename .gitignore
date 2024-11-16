@@ -1,1 +1,8 @@
+# IDE cruft
+.obsidian
+
+# This should never be checked in as it will contain login credentials.
 arduino_secrets.h
+
+# The raw Fritzing sketch, I don't want this committed at this time.
+sketch.fzz
