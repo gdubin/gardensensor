@@ -18,7 +18,7 @@ Parts
 Diagram
 
 
-![[sketch.png]]
+![wiring diagram](https://github.com/gdubin/gardensensor/blob/main/sketch.png?raw=true)
 
 ### Software
 
