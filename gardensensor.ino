@@ -83,10 +83,10 @@ void loop()
   handleHttpRequests(server, reading);
 
   #if ENABLE_THINGSPEAK
-  // At specified intervals, we'll transmit these readings up to ThinkSpeak if it's configured.
+  // At specified intervals, we'll transmit these readings up to ThingSpeak if it's configured.
   // Alternatively, you could put some type of other third-party transmit here.  It's time constrained
   // so we don't overwhelm the limits on whatever third-party service we're using.  You can adjust
-  // the interval by using the TRANSMIT_READINGS_EVERY (minutes) definition at the top of this file.
+  // the interval by using the THINGSPEAK_TRANSMIT_FREQUENCY (minutes) definition at the top of this file.
   long current = millis();
   if ( lastReadingTransmission == 0 || 
        current >= lastReadingTransmission + ( THINGSPEAK_TRANSMIT_FREQUENCY * 1000 * 60 ) )
