@@ -5,7 +5,7 @@ void sendHttpHeaders(WiFiClient client)
   client.println();
 }
 
-int initializeWiFi( char* ssid, char* pass )
+int initializeWiFi( const char* ssid, const char* pass )
 {
   int status = WL_IDLE_STATUS;
 

@@ -24,6 +24,12 @@ Diagram
 
 If you're new to Arduino development, please start [here](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino/).
 
+The following libraries are required:
+
+- WiFiNINA
+- ArduinoJson
+- ThingSpeak
+
 The repository consists of two files:
 
 | File              | Description                                                                                                                                     |
