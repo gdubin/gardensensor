@@ -53,11 +53,6 @@ float readVH400(int analogPin) {
   return(VWC);
 }
 
-
-
-
-
-
 struct VH400 {
   double analogValue;
   double analogValue_sd;
